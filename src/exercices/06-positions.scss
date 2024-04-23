@@ -1,4 +1,6 @@
 .lightbox {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
   background: #8ecae6;
   padding: 40px 20px;
@@ -9,6 +11,9 @@
   padding: 0 5px;
   background: #219ebc;
   color: white;
+  position: relative;
+  top: -32px;
+  right: -248px;
 }
 
 .list-item {
@@ -19,7 +24,12 @@
 }
 
 .list-item-1 {
+  position: relative;
+  right: 15px;
 }
 
 .list-item-2 {
+  position: relative;
+  bottom: -20px;
+  left: 10px;
 }
